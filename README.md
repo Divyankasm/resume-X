@@ -21,6 +21,7 @@ A modern, open-source tool for creating professional, ATS-friendly resumes in mi
 ## 🛠 Tech Stack
 
 **Frontend:**
+
 - Next.js 15
 - React 19
 - TypeScript
@@ -28,11 +29,13 @@ A modern, open-source tool for creating professional, ATS-friendly resumes in mi
 - Framer Motion
 
 **Backend & Database:**
+
 - PostgreSQL
 - Supabase
 - Row Level Security
 
 **AI Integrations:**
+
 - OpenAI GPT
 - Claude AI
 - Google Gemini
@@ -44,6 +47,7 @@ A modern, open-source tool for creating professional, ATS-friendly resumes in mi
 ## 📦 Installation
 
 ### Prerequisites
+
 - Node.js 18+
 - pnpm (or npm)
 - PostgreSQL database
@@ -67,20 +71,18 @@ Edit .env.local with your database, Supabase, and AI API keys.
 ### 🗄Database Setup
 
 Option 1: Run schema.sql in Supabase SQL Editor
+
 Option 2: Use Supabase CLI
 
 ```bash
- 
- 
 supabase db push --db-url=your_supabase_db_url schema.sql
 ▶️ Start Development Server
 ```
 
 ```bash
- 
- 
 pnpm dev
 Visit: http://localhost:3000
+```
 
 📄 License
 Licensed under the AGPL v3.
@@ -91,15 +93,17 @@ Clone this repository
 
 Create a new branch:
 
-bash
- 
- 
+```bash
+
 git checkout -b feature-name
 Commit your changes:
 
-bash
+```
+
+```bash
 
 git commit -m "Add feature"
 Push to your branch and open a Pull Request
+```
 
 ✨ Made with ❤️ by Divyank
