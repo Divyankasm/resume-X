@@ -75,33 +75,31 @@ Option 1: Run schema.sql in Supabase SQL Editor
 Option 2: Use Supabase CLI
 
 ```bash
+# 1. Push schema to Supabase
 supabase db push --db-url=your_supabase_db_url schema.sql
-▶️ Start Development Server
-```
 
-```bash
+# 2. Start development server
 pnpm dev
-Visit: http://localhost:3000
+# Visit: http://localhost:3000
+
 ```
 
 ### 📄 License
 Licensed under the AGPL v3.
 You may modify and distribute it, but must keep it open source under the same license.
 
-🤝 Contributing
+### 🤝 Contributing
+
 Clone this repository
 
 Create a new branch:
 
 ```bash
-
 git checkout -b feature-name
 Commit your changes:
-
 ```
 
 ```bash
-
 git commit -m "Add feature"
 Push to your branch and open a Pull Request
 ```
