@@ -62,17 +62,20 @@ pnpm install
 # 3. Setup environment variables
 cp .env.example .env.local
 Edit .env.local with your database, Supabase, and AI API keys.
+```
 
-🗄 Database Setup
+###🗄 Database Setup
 Option 1: Run schema.sql in Supabase SQL Editor
 Option 2: Use Supabase CLI
 
-bash
+```bash
  
  
 supabase db push --db-url=your_supabase_db_url schema.sql
 ▶️ Start Development Server
-bash
+```
+
+```bash
  
  
 pnpm dev
