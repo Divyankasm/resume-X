@@ -84,7 +84,7 @@ pnpm dev
 Visit: http://localhost:3000
 ```
 
-📄 License
+### 📄 License
 Licensed under the AGPL v3.
 You may modify and distribute it, but must keep it open source under the same license.
 
